@@ -1,0 +1,12 @@
+{
+    "apps" : [
+    {
+        "name"      : "Web",
+        "script"    : "npm",
+        "args"      : "run production",
+        "error_file"      : "log/error.log",
+        "out_file"        : "log/access.log",
+        "log_date_format" : "YYYY-MM-DD HH:mm"
+      }
+    ]
+}

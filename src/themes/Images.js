@@ -1,0 +1,41 @@
+// import Categories from '../redux/Categories'
+
+const images = {
+  donatur: `/static/img/donatur.svg`,
+  love: `/static/img/icon/love.svg`,
+  money: `/static/img/icon/money.svg`,
+  actLogo: `/static/img/act-logo.png`,
+  fb: `/static/img/icon/fb.png`,
+  ig: `/static/img/icon/ig.png`,
+  tw: `/static/img/icon/tw.png`,
+  yt: `/static/img/icon/yt.png`,
+  kitaBisaLogo: `/static/img/kita-bisa-logo.png`,
+  search: `/static/img/icon/search.svg`,
+  menu: `/static/img/icon/menu.svg`,
+  userCircle: `/static/img/icon/user-circle.svg`,
+  bg: `/static/img/bg.png`,
+  kid: `/static/img/kid.jpeg`,
+  help: `/static/img/icon/help.svg`,
+  home: `/static/img/home.png`,
+  mail: `/static/img/mail.png`,
+  facebook: `/static/img/facebook.png`,
+  twitter: `/static/img/twitter.png`,
+  iconCamera: `/static/img/icon-kamera.svg`,
+  art: `/static/img/icon/art.svg`,
+  disabilitas: `/static/img/icon/disabilitas.svg`,
+  loadingFailed: `/static/img/loading-failed.jpg`,
+  loading: `/static/img/loading.gif`,
+  heart: `/static/img/icon/heart.svg`,
+  cardGrey: `/static/img/icon/card-grey.svg`,
+  card: `/static/img/icon/card.svg`,
+  loadingSpin: `/static/img/icon/loading.svg`,
+  loadingSpinCyan: `/static/img/icon/loading-cyan.svg`,
+  categories: `/static/img/icon/kategori.svg`,
+  filter: `/static/img/icon/filter.svg`,
+  hamburger: `/static/img/icon/hamburger.svg`,
+  infinity: `/static/img/icon/infinity.svg`,
+  infinityBlack: `/static/img/icon/inf-black.svg`,
+  yellowCarret: `/static/img/icon/yellow-carret.svg`
+}
+
+export default images

@@ -1,0 +1,20 @@
+.tabs-campaign-wrapper .tab-content-campaign-wrap .news-wrap .text-news h1 {
+    font-size: 32px;
+    color: #4a4a4a;
+    font-family: "OpenSans-Bold",sans-serif;
+    margin: 10px 0;
+}
+
+.tabs-campaign-wrapper .tab-content-campaign-wrap .news-wrap .text-news h2 {
+    font-size: 25px;
+    color: #4a4a4a;
+    font-family: "OpenSans-Bold",sans-serif;
+    margin: 10px 0;
+}
+
+.tabs-campaign-wrapper .tab-content-campaign-wrap .news-wrap .text-news h3 {
+    font-size: 18px;
+    color: #4a4a4a;
+    font-family: "OpenSans-Bold",sans-serif;
+    margin: 10px 0;
+}

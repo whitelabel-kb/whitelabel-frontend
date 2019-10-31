@@ -1,0 +1,30 @@
+version: '2'
+
+services:
+  web-source:
+    image: registry.skyshi.io/source/git
+    environment:
+      - REPO_URL=$CI_REPOSITORY_URL
+      - COMMIT_SHA1=$CI_COMMIT_SHA
+    volumes:
+      - /app
+    labels:
+      io.rancher.container.start_once: 'true'
+
+  web:
+    image: node:8.9.4
+    working_dir: /app
+    command: ./bin/start.sh
+    network_mode: bridge
+    environment: 
+      - HOST=0.0.0.0
+      - PORT=7001
+    volumes_from:
+      - web-source
+    expose:
+      - 7001
+    labels:
+      - io.rancher.sidekicks=web-source
+      - rap.host=web.kitabisa.project.skyshi.io
+      - rap.port=7001
+      

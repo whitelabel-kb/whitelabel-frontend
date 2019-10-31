@@ -1,0 +1,20 @@
+const routes = require('next-routes')()
+// example routes
+routes.add('authed', '/authed')
+routes.add('login', '/login')
+routes.add('register', '/register')
+routes.add('email-activation', '/email/activation')
+routes.add('reset-password', '/reset/password')
+routes.add('change-password', '/change/password')
+routes.add('update-password', '/update/password')
+routes.add('forgot-password', '/forgot/password')
+routes.add('profile', '/profile')
+routes.add('history', '/history')
+routes.add('overview', '/overview')
+routes.add('faq', '/faq')
+routes.add('campaigns', '/explore')
+routes.add('donation', '/:link/donation')
+routes.add('summary', '/:link/summary/:donationId')
+routes.add('campaign', '/:urlLink')
+
+module.exports = routes
