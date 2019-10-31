@@ -3553,8 +3553,8 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash-es@^4.2.1:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
 
 lodash.assign@^4.0.0:
   version "4.2.0"
@@ -4756,7 +4756,7 @@ react-scroll@^1.7.7:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
-react-share@^2.0.0:
+react-share@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-share/-/react-share-2.4.0.tgz#e033316760cfe3265bf0cb031373a7564dbf92f5"
   dependencies:
