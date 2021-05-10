@@ -33,7 +33,7 @@
     "immutable": "^3.8.1",
     "ip": "^1.1.5",
     "localforage": "^1.5.3",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.21",
     "lru-cache": "^4.1.1",
     "moment": "^2.20.1",
     "next": "^5.0.0",
