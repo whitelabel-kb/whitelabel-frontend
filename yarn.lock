@@ -2928,8 +2928,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 hpkp@2.0.0:
   version "2.0.0"
@@ -4756,7 +4756,7 @@ react-scroll@^1.7.7:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
-react-share@^2.0.0:
+react-share@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-share/-/react-share-2.4.0.tgz#e033316760cfe3265bf0cb031373a7564dbf92f5"
   dependencies:
